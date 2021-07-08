@@ -1,6 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 body {
   font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+
+.navbar-light .navbar-toggler {
+  border: none;
+}
+
+#navbarNavDropdown > ul > li {
+  margin: 0.2em;
 }
 
 /*# sourceMappingURL=/src.e31bb0bc.css.map */

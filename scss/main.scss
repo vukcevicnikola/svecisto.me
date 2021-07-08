@@ -3,4 +3,15 @@
 
 body {
     font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+// Menu Icon
+.navbar-light .navbar-toggler {
+    border: none;
+}
+
+// Menu links
+#navbarNavDropdown > ul > li {
+    margin: 0.2em;
 }
