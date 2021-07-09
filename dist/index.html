@@ -7,6 +7,7 @@
     <meta name="description" content="Agencija Za Cistocu i Odrzavanje">
     <meta name="keywords" content="agencija za odrzavanje, agencija za cistocu, cistoca, odrzavanje, odrzavanje ulaza, odrzavanje zgrada, ciscenje poslovnih prostora">
     <meta name="author" content="Gondor developers">
+    <link rel="shortcut icon" href="/logotip.bad11e07.png" type="image/x-icon">
     
     <title>Agencija za održavanje i čistoću</title>
 
@@ -32,21 +33,24 @@
                 <ul class="navbar-nav ms-auto text-success">
                     
                   <li class="nav-item">
-                        <a href="#" class="nav-link text-success fw-bolder mx-2">Početak</a>
+                        <a href="#showcase" class="nav-link text-dark fw-bolder mx-2">Početak</a>
                   </li>
 
                   <li class="nav-item">
-                    <a href="#" class="nav-link text-success fw-bolder mx-2">O Nama</a>
+                    <a href="#services" class="nav-link text-dark fw-bolder mx-2">Usluge</a>
                   </li>
       
                   <li class="nav-item">
-                    <a href="#" class="nav-link text-success fw-bolder mx-2">Servisi</a>
+                    <a href="#aboutus" class="nav-link text-dark fw-bolder mx-2">O Nama</a>
                   </li>
       
                   <li class="nav-item">
-                    <a href="#" class="nav-link text-success fw-bolder mx-2">Kontakt</a>
+                    <a href="#contact" class="nav-link text-dark fw-bolder mx-2">Kontakt</a>
                   </li>
-    
+                  
+                  <button class="btn btn-success">
+                    <a href="tel:+38263411587" class="text-decoration-none text-light fw-bold">Pozovi</a>
+                  </button>
       
                 </ul>
               </div>
@@ -55,16 +59,16 @@
 
 
         <!-- Showcase -->
-        <section class="bg-light text-dark p-5 text-center text-lg-start">
+        <section id="showcase" class="text-dark p-5 text-center text-lg-start">
             <div class="container">
-                <div class="d-sm-flex justify-content-between align-items-center">
+                <div class="d-sm-flex justify-content-between align-items-center text-dark">
                     <div class="my-lg-5 mb-5">
                         <h1>Agencija za čistoću <span class="text-success fw-bold">svecisto.me</span></h1>
                         <p class="lead">Čišćenje i održavanje stanova i apartmana, održavanje zgrada,  poslovnih prostora, čišćenje posle građevinskih radova, održavanje garaža, pružanje molerskih usluga na teritoriji Crne Gore i još puno toga!</p>
 
                         <button class="btn btn-success">
                          <a href="#aboutus" class="text-decoration-none text-light">Više o nama</a>
-                        </button>  
+                        </button>
                     </div>
 
                      <img loading="lazy" class="img-fluid" src="/cisto.d10dbc77.png" alt="Cleaning">
@@ -73,27 +77,141 @@
         </section>
 
 
+
+        <!-- Services -->
+        <section id="services" class="py-5 text-center bg-light bg-gradient">
+            <h2 class="h2 text-center fw-bold">Naše Usluge</h2>
+            <p class="lead p-2">Profesionalno čišćenje i održavanje higijene enterijera i eksterijera, svih stambenih i poslovnih objekata! </p>
+
+            <div class="container py-5">
+              <div class="row text-center">
+
+                <div class="col-md-4 mb-4">
+                  <div class="card text-dark text-center">
+                    <img src="/stanovi.9cf80fb7.jpg" class="card-img-top" alt="odrzavanje stanova i apartmana">
+                    <div class="card-body">
+                      <p class="card-text fw-bold">Održavanje Stanova i Apartmana</p>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="col-md-4 mb-4">
+                  <div class="card text-dark text-center">
+                    <img src="/odrzavanje-zgrada.fc887e69.jpg" class="card-img-top" alt="odrzavanje zgrada">
+                    <div class="card-body">
+                      <p class="card-text fw-bold">Održavanje Zgrada</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                  <div class="card text-dark text-center">
+                    <img src="/zgrade.38789992.jpg" class="card-img-top" alt="odrzavanje poslovnih prostora">
+                    <div class="card-body">
+                      <p class="card-text fw-bold">Održavanje Poslovnih Prostora</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                  <div class="card text-dark text-center">
+                    <img src="/gradjevina.88c5f344.jpg" class="card-img-top" alt="ciscenje posle gradjevinskih radova">
+                    <div class="card-body">
+                      <p class="card-text fw-bold">Čišćenje Posle Građevinskih Radova</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                  <div class="card text-dark text-center">
+                    <img src="/garaze.d03da604.jpg" class="card-img-top" alt="odrzavanje garaza">
+                    <div class="card-body">
+                      <p class="card-text fw-bold">Održavanje Garaža</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                  <div class="card text-dark text-center">
+                    <img src="/moleraj.05bd8060.jpg" class="card-img-top" alt="pruzanje molerskih usluga">
+                    <div class="card-body">
+                      <p class="card-text fw-bold">Pružanje Molerskih Usluga</p>
+                    </div>
+                  </div>
+                </div>
+
+              </div>             
+            </div>
+
+        </section>
+
+        
+
   
         <!-- About Us -->
-        <section class="py-5 bg-info text-lg-start text-success vh-100" id="aboutus">
+        <section id="aboutus" class="py-5 bg-dark">
             <div class="container">
-                
-                <div class="d-sm-flex justify-content-between align-items-center">
-                    <img src="/service.74865cbd.png" class="w-50" alt="svecisto">
-                    <p class="lead">O nama</p>
+              <div class="row align-items-center justify-content-between">
+                <div class="col-md">
+                  <img src="/logotip.bad11e07.png" class="img-fluid" alt="">
                 </div>
-               
+                <div class="col-md p-5">
+                  <h2 class="h2 fw-bold text-light my-5">Ko smo mi?</h2>
+                  <p class="lead text-light"><span class="text-success fw-bold">"Sve Čisto"</span> je agencija koja se profesionalno bavi čišćenjem i održavanjem higijene enterijera i eksterijera, svih stambenih i poslovnih objekata.</p>
+                  <p class="lead text-light">Ukoliko imate previše obaveza, ne možete da stignete da očistite vaše stambene i poslovne prostore, mi smo tu za vas.</p>
+                  <p class="lead text-light">Naš zajednički interes je da, prvi utisak o Vašem prostoru, bude blistav.</p>
+                </div>
+              </div>
             </div>
         </section>
 
 
 
+        <!-- Contact section -->
+      <section id="contact" class="py-md-5 py-5 bg-light">
+        <div class="container py-lg-2">
+      
+          <h2 class="text-center text-dark fw-bold">Kontakt Informacije</h2>
+          <div class="d-flex flex-md-row flex-column justify-content-between pt-lg-5 pt-4">
+        
+            <span class="divider-vertical divider-dark"></span>
+            <div class="d-flex flex-lg-row flex-column align-items-lg-start align-items-center mb-md-0 mb-4 px-lg-0 px-sm-4 px-3 pb-md-0 pb-2 text-lg-start text-center">
+              
+              <div class="ps-lg-1">
+                <h5 class="mb-3 fw-bold">Brojevi Telefona:</h5>
+                <img src="/telephone-forward.d17058cd.svg" width="30" class="m-2" alt="broj telefon">
+                <a href="tel:+38263444662" class="text-decoration-none text-dark">+38263444662</a>
+                <br>
+                <img src="/telephone-forward.d17058cd.svg" width="30" class="m-2" alt="broj telefona">
+                <a href="tel:+38263411587" class="text-decoration-none text-dark">+38263411587</a>
+              </div>
+            </div>
+            <span class="divider-vertical divider-light d-md-block d-none"></span>
+            <div class="d-flex flex-lg-row flex-column align-items-lg-start align-items-center mb-md-0 mb-4 px-lg-0 px-sm-4 px-3 pb-md-0 pb-2 text-lg-start text-center">
+              
+              <div class="ps-lg-1">
+                <h5 class="mb-3 fw-bold text-dark">Email adresa:</h5>
+                <img src="/envelope-fill.1c3c038c.svg" width="30" class="m-2" alt="mail info">
+                <a href="mailto:info@svecisto.me" class="text-decoration-none text-dark">info@svecisto.me</a>
+              </div>
+            </div>
+            <span class="divider-vertical divider-light d-md-block d-none"></span>
+            
+          </div>
+        </div>
+
+        <!-- Parallax bg -->
+        <!-- <div class="jarallax-img bg-repeat-0 bg-dark opacity-50" style="background-image: url(../assets/img/seo-agency/contacts/page-title-bg.jpg);"></div> -->
+      </section>
+
+
+
         <!-- Footer -->
-        <footer class="text-center text-lg-start bg-dark">
+        <footer class=" containertext-center text-lg-start bg-dark">
             <!-- Copyright -->
-            <div class="bg-dark text-center text-light p-5">
-            © 2021 svecisto.me <img src="/logotip.bad11e07.png" width="50" alt="logo svecisto.me">
-            <a class="text-light text-decoration-none" href="https://gondorcg.me/" rel="noopener" target="_blank">Gondor Produkcija</a>
+            <div class="container-fluid bg-dark text-center text-light p-4">
+              © 2021 svecisto.me <img src="/logotip.bad11e07.png" width="50" alt="logo svecisto.me">
             </div>
         </footer>
 
